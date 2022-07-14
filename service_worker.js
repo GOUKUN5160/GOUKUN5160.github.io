@@ -5,6 +5,7 @@ var urlsToCache = [
 
 // インストール処理
 self.addEventListener('install', function(event) {
+    console.log("install");
     event.waitUntil(
         caches
             .open(CACHE_NAME)
@@ -12,6 +13,11 @@ self.addEventListener('install', function(event) {
                 return cache.addAll(urlsToCache);
             })
     );
+});
+
+self.addEventListener('activate', () => {
+    console.log('activate');
+    e.waitUntil(self.clients.claim());
 });
 
 // リソースフェッチ時のキャッシュロード処理
