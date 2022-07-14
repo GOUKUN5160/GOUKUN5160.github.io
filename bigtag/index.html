@@ -7,17 +7,6 @@
     <title>特大鬼ごっこ</title>
     <script src="js/main.js"></script>
     <link rel="manifest" href="manifest.json">
-</head>
-<body>
-    <div id="main">
-        main
-        <input type="button" value="aa">
-
-    </div>
-    <div id="install" hidden>
-        <p>アプリをインストールしてください</p>
-        <input type="button" id="installBtn" value="アプリをインストールする">
-    </div>
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
@@ -29,5 +18,16 @@
             });
         }
     </script>
+</head>
+<body>
+    <div id="main">
+        main
+        <input type="button" value="aa">
+
+    </div>
+    <div id="install" hidden>
+        <p>アプリをインストールしてください</p>
+        <input type="button" id="installBtn" value="アプリをインストールする">
+    </div>
 </body>
 </html>

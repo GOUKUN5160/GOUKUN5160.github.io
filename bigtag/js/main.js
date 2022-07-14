@@ -1,3 +1,6 @@
+
+
+
 function registerInstallAppEvent(elem) {
 	const installElem = document.getElementById("install");
 	window.addEventListener("beforeinstallprompt", function (event) {
@@ -6,7 +9,6 @@ function registerInstallAppEvent(elem) {
 		installElem.hidden = false;
 		return false;
 	});
-
 	elem.addEventListener("click", 	function () {
 		if (elem.promptEvent) {
 			elem.promptEvent.prompt();
