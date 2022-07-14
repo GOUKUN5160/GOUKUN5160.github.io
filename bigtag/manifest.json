@@ -2,6 +2,8 @@
     "name": "特大鬼ごっこ",
     "display": "standalone",
     "start_url": "./index.html",
+    "theme_color": "#03a600",
+    "background_color": "#03a600",
     "icons": [
         {
             "src": "./imgs/192x192.png",
