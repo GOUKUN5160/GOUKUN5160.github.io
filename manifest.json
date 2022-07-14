@@ -1,0 +1,43 @@
+{
+    "name": "特大鬼ごっこ",
+    "short_name": "逃走中",
+    "description": "特大鬼ごっこのための位置情報共有アプリです。",
+    "theme_color": "#03a600",
+    "background_color": "#03a600",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "./index.html",
+    "icons": [
+        {
+            "src": "./imgs/72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "./imgs/96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./imgs/144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "./imgs/152x152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "./imgs/192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./imgs/512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "splash_pages": null
+}
