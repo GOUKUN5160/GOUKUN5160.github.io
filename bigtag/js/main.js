@@ -1,10 +1,11 @@
 function registerInstallAppEvent(elem) {
 	window.addEventListener("beforeinstallprompt", function (event) {
-		//event.preventDefault();
+		event.preventDefault();
 		elem.promptEvent = event;
+		console.log("event!");
 		console.log(elem.promptEvent);
 		document.getElementById("install").hidden = false;
-		//return false;
+		return false;
 	});
 
 	elem.addEventListener("click", 	function () {
